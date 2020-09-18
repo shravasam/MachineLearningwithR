@@ -22,3 +22,13 @@ sudo dpkg -i rstudio-1.3.1073-amd64.deb
 Step 4: Launch RStudio
 
 for more details https://computingforgeeks.com/how-to-install-r-and-rstudio-on-ubuntu-debian-mint/
+IMPORTANT ERRORS :
+> install.packages('caTools')
+Installing package into ‘/home/R/x86_64-pc-linux-gnu-library/3.2’
+(as ‘lib’ is unspecified)
+Warning in install.packages :
+  package ‘caTools’ is not available (for R version 3.2.3)
+  
+  you must update R version from 3.2.3 to neweast version
+  
+  
