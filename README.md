@@ -32,3 +32,4 @@ Warning in install.packages :
   you must update R version from 3.2.3 to neweast version
   
   
+I will explain how to set up a new project in R studio and integrate with git project
