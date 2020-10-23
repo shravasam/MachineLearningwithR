@@ -36,4 +36,13 @@ Warning in install.packages :
   1. goto new project --> click on new directory-->create a folder name(create already by right click)-->then choose as sub working directory in the options-->then click on create-->the again goto new project-->click on git clone option. and clone your project..thats it.
   now your project is ready with r studio now you can commit or push into github.
   
+  VERSION PROBLEMS
   
+  for classification model.
+  Warning in install.packages :
+  package ‘ElemStatLearn’ is not available (for R version 4.0.2)
+
+  HOW TO DEVELOP MACHINE LEARNING MODELS ?
+  Before you develop any machine learning model first you need to set up data preparation/preprocessing which means encoding categorical data, missing data in the file, feature scaling which means when we develop any model we consider sample of data to send into traning and test.
+  There alot of model but most used are
+  1--> Regression model--> there are 6 different types of are-->Simple Linear, multiple Linear, polynomial, support vector, decision tree, random forest. I will explain each model where to use to predict the outcome.
