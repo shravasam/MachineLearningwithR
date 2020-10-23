@@ -31,5 +31,9 @@ Warning in install.packages :
   
   you must update R version from 3.2.3 to neweast version
   
+  HOW TO CREATE A PROJECT IN R STUDIO AND CLONE YOUR GITHUB PROJECT
   
-I will explain how to set up a new project in R studio and integrate with git project
+  1. goto new project --> click on new directory-->create a folder name(create already by right click)-->then choose as sub working directory in the options-->then click on create-->the again goto new project-->click on git clone option. and clone your project..thats it.
+  now your project is ready with r studio now you can commit or push into github.
+  
+  
