@@ -17,7 +17,7 @@ dataset = dataset[2:3]
 # test_set = scale(test_set)
 
 # Fitting Random Forest Regression to the dataset
-# install.packages('randomForest')
+install.packages('randomForest')
 library(randomForest)
 set.seed(1234)
 regressor = randomForest(x = dataset[-2],
