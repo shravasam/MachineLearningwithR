@@ -57,6 +57,13 @@ Warning in install.packages :
 Pros:Probabilistic approach, gives informations about statistical significance of features
 cons:The Logistic Regression Assumptions
 2. K-Nearest Neighbors (K-NN) :
+formula
+library(class)
+y_pred = knn(train = training_set[, -3],
+             test = test_set[, -3],
+             cl = training_set[, 3],
+             k = 5,
+             prob = TRUE)
 pros:Simple to understand, fast and efficient
 cons:Need to choose the number of neighbours k
 3. Support Vector Machine (SVM):
@@ -75,3 +82,6 @@ cons:Poor results on too small datasets, overfitting can easily occur.
 pros:Powerful and accurate, good performance on
 No interpretability, overfitting can easily many problems, including non linear
 cons:No interpretability, overfitting can easily occur, need to choose the number of trees.
+
+TIP : CTRL + L to clear screen of console
+
