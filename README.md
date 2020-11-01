@@ -88,7 +88,11 @@ classifier = naiveBayes(x = training_set[-3],
                         y = training_set$Purchased)
 pros:Efficient, not biased by outliers, works on nonlinear problems, probabilistic approach
 cons:Based on the assumption that features have same statistical relevance
-6. Decision Tree Classification:
+6. Decision Tree Classification: formula
+library(rpart)
+classifier = rpart(formula = Purchased ~ .,
+                   data = training_set)
+
 pros:Interpretability, no need for feature scaling, works on both linear / nonlinear problems
 cons:Poor results on too small datasets, overfitting can easily occur.
 7. Random Forest Classification:
