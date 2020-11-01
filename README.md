@@ -74,7 +74,12 @@ classifier = svm(formula = Purchased ~ .,
                  kernel = 'linear')
 pros:Performant, not biased by outliers, not sensitive to overfitting
 cons:Not appropriate for non linear problems, not the best choice for large number of features
-4. Kernel SVM:
+4. Kernel SVM: formula :
+library(e1071)
+classifier = svm(formula = Purchased ~ .,
+                 data = training_set,
+                 type = 'C-classification',
+                 kernel = 'radial')
 pros:High performance on nonlinear problems, not biased by outliers, not sensitive to overfitting
 cons:Not the best choice for large number of features, more complex
 5. Naive Bayes:
