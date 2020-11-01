@@ -57,12 +57,21 @@ Warning in install.packages :
 Pros:Probabilistic approach, gives informations about statistical significance of features
 cons:The Logistic Regression Assumptions
 2. K-Nearest Neighbors (K-NN) :
-pros:
-cons:
-3. Support Vector Machine (SVM)
-4. Kernel SVM
-5. Naive Bayes
-6. Decision Tree Classification
-7. Random Forest Classification
-
-
+pros:Simple to understand, fast and efficient
+cons:Need to choose the number of neighbours k
+3. Support Vector Machine (SVM):
+pros:Performant, not biased by outliers, not sensitive to overfitting
+cons:Not appropriate for non linear problems, not the best choice for large number of features
+4. Kernel SVM:
+pros:High performance on nonlinear problems, not biased by outliers, not sensitive to overfitting
+cons:Not the best choice for large number of features, more complex
+5. Naive Bayes:
+pros:Efficient, not biased by outliers, works on nonlinear problems, probabilistic approach
+cons:Based on the assumption that features have same statistical relevance
+6. Decision Tree Classification:
+pros:Interpretability, no need for feature scaling, works on both linear / nonlinear problems
+cons:Poor results on too small datasets, overfitting can easily occur.
+7. Random Forest Classification:
+pros:Powerful and accurate, good performance on
+No interpretability, overfitting can easily many problems, including non linear
+cons:No interpretability, overfitting can easily occur, need to choose the number of trees.
