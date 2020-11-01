@@ -82,7 +82,10 @@ classifier = svm(formula = Purchased ~ .,
                  kernel = 'radial')
 pros:High performance on nonlinear problems, not biased by outliers, not sensitive to overfitting
 cons:Not the best choice for large number of features, more complex
-5. Naive Bayes:
+5. Naive Bayes: formula: 
+library(e1071)
+classifier = naiveBayes(x = training_set[-3],
+                        y = training_set$Purchased)
 pros:Efficient, not biased by outliers, works on nonlinear problems, probabilistic approach
 cons:Based on the assumption that features have same statistical relevance
 6. Decision Tree Classification:
