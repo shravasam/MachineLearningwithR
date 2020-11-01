@@ -106,3 +106,11 @@ pros:Powerful and accurate, good performance on many problems including non line
 cons:No interpretability, overfitting can easily occur, need to choose the number of trees.
 
 TIP : CTRL + L to clear screen of console
+
+CLUSTERING MODELS IN MACHINE LEARNING IN R
+
+There are two types of clustering models
+  1.K means
+  2.Hierarchical Clustering
+  
+  
