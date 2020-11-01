@@ -95,10 +95,14 @@ classifier = rpart(formula = Purchased ~ .,
 
 pros:Interpretability, no need for feature scaling, works on both linear / nonlinear problems
 cons:Poor results on too small datasets, overfitting can easily occur.
-7. Random Forest Classification:
+7. Random Forest Classification: formula
+library(randomForest)
+set.seed(123)
+classifier = randomForest(x = training_set[-3],
+                          y = training_set$Purchased,
+                          ntree = 500)
 pros:Powerful and accurate, good performance on
 No interpretability, overfitting can easily many problems, including non linear
 cons:No interpretability, overfitting can easily occur, need to choose the number of trees.
 
 TIP : CTRL + L to clear screen of console
-
