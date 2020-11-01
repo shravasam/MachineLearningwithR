@@ -110,7 +110,19 @@ TIP : CTRL + L to clear screen of console
 CLUSTERING MODELS IN MACHINE LEARNING IN R
 
 There are two types of clustering models
-  1.K means
-  2.Hierarchical Clustering
+  1.K means: formula :
+  # Fitting K-Means to the dataset
+set.seed(29)
+kmeans = kmeans(x = dataset, centers = 5)
+y_kmeans = kmeans$cluster
+  2.Hierarchical Clustering: formula
+  dendrogram = hclust(d = dist(dataset, method = 'euclidean'), method = 'ward.D')
+plot(dendrogram,
+     main = paste('Dendrogram'),
+     xlab = 'Customers',
+     ylab = 'Euclidean distances')
+
+
+
   
   
