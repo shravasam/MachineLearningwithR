@@ -111,7 +111,7 @@ CLUSTERING MODELS IN MACHINE LEARNING IN R
 
 There are two types of clustering models
   1.K means: formula :
-  # Fitting K-Means to the dataset
+  --Fitting K-Means to the dataset
 set.seed(29)
 kmeans = kmeans(x = dataset, centers = 5)
 y_kmeans = kmeans$cluster
