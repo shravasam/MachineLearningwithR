@@ -150,6 +150,7 @@ Installing the Devtools Package
 sudo -i R
 -------------------------------------
 
+
 important point to be noted 
  you use classification algorithms to classify language. Speaking of classification algorithms, most of NLP algorithms are classification models, and they include Logistic Regression, Naive Bayes, CART which is a model based on decision trees, Maximum Entropy again related to Decision Trees, Hidden Markov Models which are models based on Markov processes.
 
