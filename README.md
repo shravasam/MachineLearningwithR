@@ -155,5 +155,28 @@ important point to be noted
 
 #DEEP LEARNING IN R
 
+Deep Learning is the most exciting and powerful branch of Machine Learning. Deep Learning models can be used for a variety of complex tasks:
 
+    Artificial Neural Networks for Regression and Classification
+    Convolutional Neural Networks for Computer Vision
+    Recurrent Neural Networks for Time Series Analysis
+    Self Organizing Maps for Feature Extraction
+    Deep Boltzmann Machines for Recommendation Systems
+    Auto Encoders for Recommendation Systems
+
+the neuron: input value1,2,3 → neuron--→output signal
+
+
+Convolutional neural networks CNN :
+steps 
+1)  convolution operation : edge, emboss, context, 
+2) ReLU layer : black =negative, white = positive values, 
+3) pooling: exp: cheetha, freature map-→ pooled feature mapping, evaluation of pooling operations in convolutional architectures for object recognition.
+4) flattening
+5) full connection
+6) summary
+extra :sofimax & cross entropy
+input image-→convolution(convolution layer) -→pooling(pooling layer)-->flattening
+input image * feature detector = feature map
+convolution types 
 
