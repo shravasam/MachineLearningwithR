@@ -49,13 +49,16 @@ Warning in install.packages :
   
   
 
-  CLASSIFICATION MODEL IN MACHINE LEARNING IN R.
+  #CLASSIFICATION MODEL IN MACHINE LEARNING IN R.
   
   ---- there are 7 model in classification in r
   
 1. Logistic Regression : 
 Pros:Probabilistic approach, gives informations about statistical significance of features
 cons:The Logistic Regression Assumptions
+classifier = glm(formula = Purchased ~ .,
+                 family = binomial,
+                 data = training_set)
 2. K-Nearest Neighbors (K-NN) :
 formula
 library(class)
@@ -107,7 +110,7 @@ cons:No interpretability, overfitting can easily occur, need to choose the numbe
 
 TIP : CTRL + L to clear screen of console
 
-CLUSTERING MODELS IN MACHINE LEARNING IN R
+#CLUSTERING MODELS IN MACHINE LEARNING IN R
 
 There are two types of clustering models
   1.K means: formula :
@@ -125,4 +128,31 @@ plot(dendrogram,
 
 
   
+  #NATURAL LANGUAGE PROCESSING (NLP)
+  ---> Install the below  packages
+  install.packages('tm') to install this package there is 
+  install.packages('SnowballC')
   
+  If you find the below error while installing above package "tm".
+--------------------------------------
+  If libxml-2.0 is already installed, check that 'pkg-config' is in your
+PATH and 
+PKG_CONFIG_PATH contains a libxml-2.0.pc file. If pkg-config is unavailable you can set INCLUDE_DIR and LIB_DIR manually via:
+R CMD INSTALL --configure-vars='INCLUDE_DIR=... LIB_DIR=...'
+-----------------------------------
+
+Please run below commands in console.
+-------------------------------------
+install R developer packages using below commands
+Installing System Dependencies for devtools :
+sudo apt-get install build-essential libcurl4-gnutls-dev libxml2-dev libssl-dev
+Installing the Devtools Package
+sudo -i R
+-------------------------------------
+
+important point to be noted 
+ you use classification algorithms to classify language. Speaking of classification algorithms, most of NLP algorithms are classification models, and they include Logistic Regression, Naive Bayes, CART which is a model based on decision trees, Maximum Entropy again related to Decision Trees, Hidden Markov Models which are models based on Markov processes.
+
+
+
+
