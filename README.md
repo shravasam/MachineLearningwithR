@@ -134,21 +134,19 @@ plot(dendrogram,
   install.packages('SnowballC')
   
   If you find the below error while installing above package "tm".
---------------------------------------
+
   If libxml-2.0 is already installed, check that 'pkg-config' is in your
 PATH and 
 PKG_CONFIG_PATH contains a libxml-2.0.pc file. If pkg-config is unavailable you can set INCLUDE_DIR and LIB_DIR manually via:
 R CMD INSTALL --configure-vars='INCLUDE_DIR=... LIB_DIR=...'
------------------------------------
 
 Please run below commands in console.
--------------------------------------
+
 install R developer packages using below commands
 Installing System Dependencies for devtools :
 sudo apt-get install build-essential libcurl4-gnutls-dev libxml2-dev libssl-dev
 Installing the Devtools Package
 sudo -i R
--------------------------------------
 
 
 important point to be noted 
