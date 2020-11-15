@@ -219,4 +219,15 @@ there extraction technique :
                     2) high bias high variance
                     3) low bias low variance
                     4) low bias high variance
-  2) grid search 
+  2) grid search
+  
+  XG BOOST IN ML R
+  
+                  1)Importing the libraries
+                  2)Importing the dataset
+                  3)Splitting the dataset into the Training and Test set
+                  4)fitting / Training XGBoost on the Training set ( classification )
+                  5)Making the confusion matrix
+                  6)Applying k-fold Cross-Validation
+  
+  
