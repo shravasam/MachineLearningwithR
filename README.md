@@ -206,3 +206,17 @@ there extraction technique :
   3.Kernal PCA
   
   4.Quadratic Discriminant analysis (QDA)
+  
+  
+  MODEL SELECTION IN ML R
+  
+  1) k-fold cross validation in model selection :
+
+    dataset -→training & test sets → 8th iterations
+
+                The bias-variance trade off
+                    1)  high bias low variance
+                    2) high bias high variance
+                    3) low bias low variance
+                    4) low bias high variance
+  2) grid search 
