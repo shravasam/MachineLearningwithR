@@ -166,7 +166,8 @@ Deep Learning is the most exciting and powerful branch of Machine Learning. Deep
 
 the neuron: input value1,2,3 → neuron--→output signal
 
-
+ ANN library in r
+ install.packages(h2o)
 Convolutional neural networks CNN :
 steps 
 1)  convolution operation : edge, emboss, context, 
@@ -180,3 +181,28 @@ input image-→convolution(convolution layer) -→pooling(pooling layer)-->flatt
 input image * feature detector = feature map
 convolution types 
 
+DIMENSIONALITY REDUCTION TECHNIQUES IN ML R :
+
+There are two types of techniques 
+1.feature selection
+2.feature extraction
+
+Brief info :Feature Selection techniques are Backward Elimination, Forward Selection, Bidirectional Elimination, Score Comparison and more. These techniques in Regression.
+
+there extraction technique :
+  1. Principal Component Analysis (PCA)
+       --noise filtering
+       --visualization
+       --feature extraction
+       --stock market predictions
+       --gene data analysis
+        goal of pca : identify patterns in data and detect the correlation between variables.reduce dimentional dataset by projecting it on to a K-dimentional subspace (where K<D). we learn relationship between X and Y values.
+  2. linear discriminant analysis (LDA) library (MASS)
+        -- sounds similar to pca but
+        --feature space and sub space
+        --pca :component axes that maximize the variables
+        --ida : maximizing the component axes for class-separation
+        --from the n independent variables of your dataset. LDA extracts P<=N new independent variables that separate the most the classes of the depenendent variable.
+  3.Kernal PCA
+  
+  4.Quadratic Discriminant analysis (QDA)
