@@ -221,12 +221,12 @@ there extraction technique :
                     4) low bias high variance
   2) grid search
   
-  XG BOOST IN ML R
+  XG BOOST IN ML R library(caret) library(xgboost)
   
                   1)Importing the libraries
                   2)Importing the dataset
                   3)Splitting the dataset into the Training and Test set
-                  4)fitting / Training XGBoost on the Training set ( classification )
+                  4)fitting / Training XGBoost on the Training set                                           (classification) library(xgboost)
                   5)Making the confusion matrix
                   6)Applying k-fold Cross-Validation
   
